@@ -1,0 +1,96 @@
+/* 'Tokyo Night' Colors */
+:root {
+  --bg:  #24283b;
+  --white: #c0caf5;
+  --black: #414868;
+  --red: #f7768e;
+  --yellow: #e0af68;
+  --green: #73daca;
+  --blue: #7aa2f7;
+  --magenta: #bb9af7;
+  /* other */
+  --orange: #ff9e64;
+  --stringGreen: #9ece6a;
+  --elementBlue: #2ac3de;
+  --text: #9aa5ce;
+  --comments: #565f89;
+}
+
+/* Inline code */
+pre,
+code {
+	color: var(--magenta);
+	font-size: 14px;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	line-height: 1.5;
+	direction: ltr;
+	white-space: pre;
+	text-align: left;
+	text-shadow: none;
+	word-break: normal;
+	word-spacing: normal;
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+pre::selection,
+code::selection {
+	text-shadow: none;
+	background: var(--bg);
+}
+@media print {
+	pre,
+	code {
+		text-shadow: none;
+	}
+}
+pre {
+	margin: 0.5rem 0 16px;
+	padding: 0.8rem 1rem 0.9rem;
+	overflow: auto;
+	background: var(--black);
+	border-radius: 4px;
+}
+:not(pre) > code {
+	padding: 0.1em 0.3em;
+	color: var(--magenta);
+	background: var(--black);
+	border-radius: 0.3em;
+	white-space: pre-wrap;
+}
+
+
+/* Main */
+body {
+	max-width: 900px;
+	margin: auto;
+  background: var(--bg);
+  color: var(--white);
+}
+
+h1 {
+  color: var(--magenta);
+}
+h2 {
+  color: var(--stringGreen);
+}
+h3 {
+  color: var(--orange);
+}
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+blockquote {
+	background: var(--black);
+	color: var(--white);
+	border: 1px solid var(--comments);
+	border-radius: 0.3em;
+	padding: 1px 1px;
+	margin: 1px 1px;
+}

@@ -1,0 +1,9 @@
+---
+const { num } = Astro.props;
+const options = `&start-with-lorem=1&sentences=${num}`;
+const url = `https://hipsum.co/api/?type=hipster-latin${options}`;
+const response = await fetch(url);
+const data = await response.json();
+---
+
+<p>{data}</p>

@@ -1,0 +1,50 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import '../styles/global.css';
+---
+
+<MainLayout title="Notes On ...">
+	<div class="flexBox">
+		<dl>
+			<h2>Languages</h2>
+			<dt>General</dt>
+			<dd><a href="/notes/c">C</a></dd>
+			<dd><a href="/notes/rust">Rust</a></dd>
+
+			<dt>Scripting</dt>
+			<dd><a href="/notes/javascript">JavaScript</a></dd>
+			<dd><a href="/notes/typescript">TypeScript</a></dd>
+			<dd><a href="/notes/python">Python</a></dd>
+			<dd><a href="/notes/lua">Lua</a></dd>
+			<dd><a href="/notes/bash">Bash</a></dd>
+			<dd><a href="/notes/php">PHP</a></dd>
+			<dd><a href="/notes/ruby">Ruby</a></dd>
+
+			<dt>Markup</dt>
+			<dd><a href="/notes/html">HTML</a></dd>
+			<dd><a href="/notes/markdown">Markdown</a></dd>
+
+			<dt>Stylesheet</dt>
+			<dd><a href="/notes/css">CSS</a></dd>
+			<dd><a href="/notes/sass">Sass</a></dd>
+		</dl>
+		<dl>
+			<h2>Frameworks</h2>
+			<dt>Web</dt>
+			<dd><a href="/notes/astro">Astro</a></dd>
+			<dd><a href="/notes/bootstrap">Bootstrap</a></dd>
+		</dl>
+		<dl>
+			<h2>Other</h2>
+			<dt>Example</dt>
+			<dd><a href="/notes/test">Test</a></dd>
+		</dl>
+	</div>
+</MainLayout>
+<style>
+.flexBox {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+}
+</style>
