@@ -1,17 +1,16 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../layouts/MarkdownLayout.astro
 title: HTML
 ---
 
 # HTML
 **Hyper Text Markup Language**
-```HTML
+```html
 <!DOCTYPE html>
 <html>
   <head>
     <title>This is HTML</title>
   </head>
-
   <body>
     <h1>This is an HTML header</h1>
   </body>
@@ -20,7 +19,7 @@ title: HTML
 **Html** is a markup language that defines the structure of the content 
 of a webpage. It is based on SGML (Standard Generalized Markup Language) and 
 uses opening/closing tags to give organization to otherwise meaningless text: 
-`<tag>hi</tag>`
+`<p>hi</p>`
 
 The language underwent many changes until 2008, when it was standardized as its 
 current form: **HTML5**

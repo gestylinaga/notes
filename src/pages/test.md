@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
+layout: ../layouts/MarkdownLayout.astro
 title: Test Page
 ---
 
@@ -17,7 +17,7 @@ This is `in-line Code` here.
 
 ```js
 function somefunc() {
-  return 'This is a code block.';
+  return "This is a 'js' code block.";
 };
 ```
 
@@ -35,8 +35,8 @@ function somefunc() {
 
 
 ### Caption Box
-> caption box
->> nested caption box
+> Caption Box
+>> - nested caption box
 
 ## Links
 [Internal Link - top](#)

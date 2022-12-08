@@ -1,6 +1,6 @@
 ---
 import '../styles/markdownStyle.css';
-import Footer from '../components/Footer.astro';
+import MarkdownFooter from '../components/MarkdownFooter.astro';
 import HeaderLink from '../components/HeaderLink.astro'
 
 const { frontmatter } = Astro.props;
@@ -17,6 +17,6 @@ const { frontmatter } = Astro.props;
   <body>
     <HeaderLink />
     <slot />
-    <Footer />
+    <MarkdownFooter />
   </body>
 </html>
