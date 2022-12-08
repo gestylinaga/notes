@@ -26,8 +26,8 @@ It is used in:
 - Websites like Wikipedia
 - others via frameworks like Laravel & Symfony
 
-It predates [JavaScript](./javascript), and was one of the first languages to be 
-embedded directly  into [HTML](./html), allowing websites to be built 
+It predates [JavaScript](../javascript), and was one of the first languages to 
+be embedded directly  into [HTML](../html), allowing websites to be built 
 dynamically on a server.
 
 ## External Links

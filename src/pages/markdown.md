@@ -21,7 +21,7 @@ in a web browser.
     - Emoji support
 
 - Very simple syntax, easy to learn
-    - "EZ mode HTML" -- [HTML](./html) is another example of a 'Markup' language
+    - "EZ mode HTML" -- [HTML](../html) is another example of a 'Markup' language
 
 - All the 'notes' you read on this site are written in markdown
 

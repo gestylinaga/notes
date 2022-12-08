@@ -17,7 +17,7 @@ hello_world
 for taking *simplicity* and *code-readability* to the extreme. 
 
 It was created in 1993 to be an easy-to-use scripting language like 
-[Python](./python), but with genuine Object Oriented features (OOP). It grew in 
+[Python](../python), but with genuine Object Oriented features (OOP). It grew in 
 popularity with the creation of Rails (aka Ruby on Rails) in 2005, a Model, 
 View, Controller (MVC) framework. 
 

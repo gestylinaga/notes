@@ -15,9 +15,9 @@ helloWorld()
 **Lua** is a fast, lightweight, and embeddable scripting/programming language. 
 It is widely considered the *fastest* interpreted/scripting language.
 
-Its "virtual machine" maps very closely to the [C programming language](./c), 
+Its "virtual machine" maps very closely to the [C programming language](../c), 
 and when combined with its Just-In-Time compiler, **LuaJIT**, it's faster than 
-[Python](./python) and [JavaScript](./javascript).
+[Python](../python) and [JavaScript](../javascript).
 
 In addition to speed, Lua's complete source code and documentation is only 
 1.3 MB in size, making it very portable/embeddable.

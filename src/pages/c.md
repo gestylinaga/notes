@@ -16,7 +16,7 @@ int main(void)
 be the mother of all programming languages. Its use can be seen in:
   - The Windows, Linux, **and** Mac operating system kernels
   - Databases (like MySQL)
-  - Interpreters for other languages (like [Python](./python))
+  - Interpreters for other languages (like [Python](../python))
   - Developer tools (like Vim and Git)
 
 The language was created in 1972 and used to develop the 

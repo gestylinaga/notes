@@ -11,8 +11,8 @@ as **partial** or **selective hydration**, which lets pages load *fast*.
 
 It has built-in support for:
 - Languages:
-  - [TypeScript](./typescript)
-  - [Markdown](./markdown)
+  - [TypeScript](../typescript)
+  - [Markdown](../markdown)
 - Frameworks:
   - React
   - Svelte
