@@ -1,7 +1,7 @@
 ---
 import MarkdownFooter from '../components/MarkdownFooter.astro';
 import HeaderLink from '../components/HeaderLink.astro'
-import MarkdownStyle from '../components/MarkdownStyle.astro';
+import '../styles/markdownStyle.css'
 
 const { frontmatter } = Astro.props;
 ---
@@ -13,7 +13,6 @@ const { frontmatter } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="generator" content={Astro.generator} />
     <title>Notes on ...{frontmatter.title}</title>
-    <MarkdownStyle />
   </head>
   <body>
     <HeaderLink />
@@ -21,3 +20,6 @@ const { frontmatter } = Astro.props;
     <MarkdownFooter />
   </body>
 </html>
+<style lang="scss" is:global>
+  @import '../styles/markdownStyle.css'
+</style>

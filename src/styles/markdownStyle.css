@@ -1,0 +1,85 @@
+/* Main */
+body {
+  max-width: 900px;
+  margin: auto;
+  background: #24283b;
+  color: #c0caf5;
+}
+
+h1 {
+  color: #bb9af7;
+}
+
+h2 {
+  color: #9ece6a;
+}
+
+h3 {
+  color: #ff9e64;
+}
+
+a {
+  color: #7aa2f7;
+  text-decoration: none;
+}
+
+blockquote {
+  background: #414868;
+  color: #c0caf5;
+  border: 1px solid #565f89;
+  border-radius: 0.3em;
+  padding: 1px 1px;
+  margin: 1px 1px;
+}
+
+/* Inline code */
+pre,
+code {
+  color: #bb9af7;
+  font-size: 14px;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  line-height: 1.5;
+  direction: ltr;
+  white-space: pre;
+  text-align: left;
+  text-shadow: none;
+  word-break: normal;
+  word-spacing: normal;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+pre::selection,
+code::selection {
+  text-shadow: none;
+  background: #24283b;
+}
+
+@media print {
+  pre,
+  code {
+    text-shadow: none;
+  }
+}
+pre {
+  margin: 0.5rem 0 16px;
+  padding: 0.8rem 1rem 0.9rem;
+  overflow: auto;
+  background: #414868;
+  border-radius: 4px;
+}
+
+:not(pre) > code {
+  padding: 0.1em 0.3em;
+  color: #bb9af7;
+  background: #414868;
+  border-radius: 0.3em;
+  white-space: pre-wrap;
+}
+
+/*# sourceMappingURL=markdownStyle.css.map */

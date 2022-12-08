@@ -1,52 +1,45 @@
----
-
----
-
-<style is:global>
-/* 'Tokyo Night' Colors */
-:root {
-  --bg:  #24283b;
-  --white: #c0caf5;
-  --black: #414868;
-  --red: #f7768e;
-  --yellow: #e0af68;
-  --green: #73daca;
-  --blue: #7aa2f7;
-  --magenta: #bb9af7;
-  /* other */
-  --orange: #ff9e64;
-  --stringGreen: #9ece6a;
-  --elementBlue: #2ac3de;
-  --text: #9aa5ce;
-  --comments: #565f89;
-}
+// Notes - Markdown Style
+$bg:  #24283b;
+$white: #c0caf5;
+$black: #414868;
+$red: #f7768e;
+$yellow: #e0af68;
+$green: #73daca;
+$blue: #7aa2f7;
+$magenta: #bb9af7;
+// other 
+$orange: #ff9e64;
+$stringGreen: #9ece6a;
+$elementBlue: #2ac3de;
+$text: #9aa5ce;
+$comments: #565f89;
 
 /* Main */
 body {
 	max-width: 900px;
 	margin: auto;
-  background: var(--bg);
-  color: var(--white);
+  background: $bg;
+  color: $white;
 }
 
 h1 {
-  color: var(--magenta);
+  color: $magenta;
 }
 h2 {
-  color: var(--stringGreen);
+  color: $stringGreen;
 }
 h3 {
-  color: var(--orange);
+  color: $orange;
 }
 a {
-  color: var(--blue);
+  color: $blue;
   text-decoration: none;
 }
 
 blockquote {
-	background: var(--black);
-	color: var(--white);
-	border: 1px solid var(--comments);
+	background: $black;
+	color: $white;
+	border: 1px solid $comments;
 	border-radius: 0.3em;
 	padding: 1px 1px;
 	margin: 1px 1px;
@@ -55,7 +48,7 @@ blockquote {
 /* Inline code */
 pre,
 code {
-	color: var(--magenta);
+	color: $magenta;
 	font-size: 14px;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	line-height: 1.5;
@@ -76,7 +69,7 @@ code {
 pre::selection,
 code::selection {
 	text-shadow: none;
-	background: var(--bg);
+	background: $bg;
 }
 @media print {
 	pre,
@@ -88,14 +81,13 @@ pre {
 	margin: 0.5rem 0 16px;
 	padding: 0.8rem 1rem 0.9rem;
 	overflow: auto;
-	background: var(--black);
+	background: $black;
 	border-radius: 4px;
 }
 :not(pre) > code {
 	padding: 0.1em 0.3em;
-	color: var(--magenta);
-	background: var(--black);
+	color: $magenta;
+	background: $black;
 	border-radius: 0.3em;
 	white-space: pre-wrap;
 }
-</style>
