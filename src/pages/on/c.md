@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: C
 ---
 
@@ -16,7 +16,7 @@ int main(void)
 be the mother of all programming languages. Its use can be seen in:
   - The Windows, Linux, **and** Mac operating system kernels
   - Databases (like MySQL)
-  - Interpreters for other languages (like [Python](../python))
+  - Interpreters for other languages (like [Python](../on/python))
   - Developer tools (like Vim and Git)
 
 The language was created in 1972 and used to develop the 
@@ -44,7 +44,7 @@ with Low-Level Control over memory and hardware.
   - something to free up memory you aren't using
   - meaning you must manage memory manually, or your program will "leak" memory
 
-## External Links
+## More External Links
 - [ISO C Working Group Official Site](https://www.open-std.org/jtc1/sc22/wg14/)
 - [A History of C by Dennis Ritchie (creator)](http://csapp.cs.cmu.edu/3e/docs/chistory.html)
 - [Wikipedia Page](https://en.wikipedia.org/wiki/C_(programming_language))

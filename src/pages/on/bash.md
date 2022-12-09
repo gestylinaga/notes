@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Bash
 ---
 
@@ -20,6 +20,6 @@ Improvements offered by Bash include:
 * indexed arrays of unlimited size
 * integer arithmetic in any base from 2 to 60
 
-## External Links
+## More External Links
 - [Official GNU Software Link](https://www.gnu.org/software/bash/)
 - [Official Docs](https://www.gnu.org/software/bash/manual/)

@@ -1,12 +1,12 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Bootstrap
 ---
 
 # Bootstrap
 **Bootstrap** is a *batteries-included*, feature-packed frontend toolkit. It 
 provides prebuilt components to speed up web development. It is built with 
-[Sass](../sass), and therefore highly extensible / customizable.
+[Sass](../on/sass), and therefore highly extensible / customizable.
 
 ## Install
 ```bash
@@ -33,16 +33,16 @@ Example prebuilt classes in HTML:
 
 ## Icons
 ```bash
-# with npm
+# Installation with npm
 npm i bootstrap-icons
 ```
-or from a CDN
+or installation from a CDN:
 ```html
 <!-- in head tag -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 ```
 
-## External Links
+## More External Links
 - [Official Site](https://getbootstrap.com/)
 - [Official Docs 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 - [Bootstrap Icons Page](https://icons.getbootstrap.com/)

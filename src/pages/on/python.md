@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Python
 ---
 
@@ -37,7 +37,7 @@ software you can import from, called the
 - [Pip Official Project Site](https://pypi.org/project/pip/)
 - [Pip Official Docs](https://pip.pypa.io/en/stable/)
 
-## External Links
+## More External Links
 - [Official Site](https://www.python.org/)
 - [Official docs](https://docs.python.org/3/)
 - [Official Tutorial](https://docs.python.org/3/tutorial/index.html)

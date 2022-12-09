@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Sass
 ---
 
@@ -16,12 +16,12 @@ title: Sass
 }
 ```
 **Sass** is actually 2  compiled stylesheet languages that extend regular old
-[CSS (Cascading StyleSheets)](../css). "Sass" refers to the compiler, `sass` 
+[CSS (Cascading StyleSheets)](../on/css). "Sass" refers to the compiler, `sass` 
 that converts either a `.sass` or `.scss` file into a regular old `.css` 
 CSS file.
 
 ### .sass 
-- regular CSS without `;`s and `{}`s for *nicer/easier* syntax:
+- regular CSS without `;`s and `{}`s for *nicer / easier* syntax:
 ```sass 
 nav
   ul
@@ -86,7 +86,7 @@ nav
   }
   ```
 
-## External Links
+## More External Links
 - [Official Site](https://sass-lang.com/)
 - [Official Docs](https://sass-lang.com/documentation/)
 - [Official Guide](https://sass-lang.com/guide)

@@ -1,18 +1,18 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Astro
 ---
 
 # Astro
 **Astro** is a *fast* static site generator, based on next-gen *island
-architechture*. The term 'Astro island' refers to an interactive UI component, 
+architechture*. The term "*Astro island*" refers to an interactive UI component, 
 on an otherwise static page. This technique of architechtural pattern is known 
 as **partial** or **selective hydration**, which lets pages load *fast*.
 
 It has built-in support for:
 - Languages:
-  - [TypeScript](../typescript)
-  - [Markdown](../markdown)
+  - [TypeScript](../on/typescript)
+  - [Markdown](../on/markdown)
 - Frameworks:
   - React
   - Svelte
@@ -35,12 +35,13 @@ Example `.astro` file:
 const info1 = "This area is the 'frontmatter'.";
 const info2 = "TypeScript / JavaScript goes here";
 ---
+
 <div>
   <h1>Plain HTML goes here</h1>
   <p>like this</p>
 </div>
 ```
 
-## External Links
+## More External Links
 - [Official Site](https://astro.build/)
 - [Official Docs](https://docs.astro.build/en/getting-started/)

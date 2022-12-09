@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Ruby
 ---
 
@@ -17,8 +17,8 @@ hello_world
 for taking *simplicity* and *code-readability* to the extreme. 
 
 It was created in 1993 to be an easy-to-use scripting language like 
-[Python](../python), but with genuine Object Oriented features (OOP). It grew in 
-popularity with the creation of Rails (aka Ruby on Rails) in 2005, a Model, 
+[Python](../on/python), but with genuine Object Oriented features (OOP). It grew 
+in popularity with the creation of Rails (aka Ruby on Rails) in 2005, a Model, 
 View, Controller (MVC) framework. 
 
 The two combined have been used to make:
@@ -28,11 +28,12 @@ The two combined have been used to make:
 - GitHub
 
 ## RubyGems
-Ruby comes with it's own package manager called RubyGems, with each individual packages called a "gem"
+Ruby comes with it's own package manager called RubyGems, with each individual 
+packages called a "*gem*".
 
 [RubyGems Site](https://rubygems.org/)
 
-## External Links
+## More External Links
 - [Official Site](https://www.ruby-lang.org/en/)
 - [Official Docs](https://www.ruby-lang.org/en/documentation/)
 - [Ruby on Rails](https://rubyonrails.org/)

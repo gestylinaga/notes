@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/MarkdownLayout.astro
+layout: ../../layouts/MarkdownLayout.astro
 title: Rust
 ---
 
@@ -44,7 +44,7 @@ Rust has its own package manager, called `cargo`, where each individual package
 is called a `crate`
   - see [The Rust Community's Crate Registry](https://crates.io/)
 
-## External Links
+## More External Links
 - [Official Site](https://www.rust-lang.org/)
 - [Rust Official Docs](https://doc.rust-lang.org/book/)
 - [Rust Installation Page](https://doc.rust-lang.org/book/ch01-01-installation.html)
