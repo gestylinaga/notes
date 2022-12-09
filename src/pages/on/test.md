@@ -41,6 +41,6 @@ function somefunc() {
 ## Links
 [Internal Link - top](#)
 
-[Internal Link - back](../)
+[Internal Link - home](/)
 
 [External Link - gesty.dev](https://gesty.dev)

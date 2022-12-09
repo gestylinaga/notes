@@ -26,7 +26,7 @@ viewing it in a web browser.
 
 
 - Very simple syntax, easy to learn
-    - "EZ mode HTML" -- [HTML](/notes/on/html) is another example of a 'Markup' 
+    - "EZ mode HTML" -- [HTML](/on/html) is another example of a 'Markup' 
     language
 
 - Easy conversion to pdf or html if needed

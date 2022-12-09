@@ -40,8 +40,8 @@ HTML files contain a hierarchy of nodes based on the **DOM**
       - `href=""` -- attribute
 
 HTML works in conjunction with CSS and JavaScript to provide complete websites.
-- [see CSS](/notes/on/css)
-- [see JavaScript](/notes/on/javascript)
+- [see CSS](/on/css)
+- [see JavaScript](/on/javascript)
 
 ## More External Links
 - [Official Living Standard Page](https://html.spec.whatwg.org/)

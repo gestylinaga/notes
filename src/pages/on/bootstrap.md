@@ -6,7 +6,7 @@ title: Bootstrap
 # Bootstrap
 **Bootstrap** is a *batteries-included*, feature-packed frontend toolkit. It 
 provides prebuilt components to speed up web development. It is built with 
-[Sass](../on/sass), and therefore highly extensible / customizable.
+[Sass](/on/sass), and therefore highly extensible / customizable.
 
 ## Install
 ```bash
