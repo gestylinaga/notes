@@ -16,9 +16,9 @@ helloWorld()
 It is widely considered the *fastest* interpreted/scripting language.
 
 Its "virtual machine" maps very closely to the 
-[C programming language](../on/c), and when combined with its Just-In-Time 
-compiler, **LuaJIT**, it's faster than [Python](../on/python) and 
-[JavaScript](../on/javascript).
+[C programming language](/notes/on/c), and when combined with its Just-In-Time 
+compiler, **LuaJIT**, it's faster than [Python](/notes/on/python) and 
+[JavaScript](/notes/on/javascript).
 
 In addition to speed, Lua's complete source code and documentation is only 
 1.3 MB in size, making it very portable/embeddable.

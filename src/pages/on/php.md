@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: PHP
 ---
+
 # PHP 
 ```php
 <html>
@@ -26,9 +27,9 @@ It is used in:
 - Websites like Wikipedia
 - others via frameworks like Laravel & Symfony
 
-It predates [JavaScript](../on/javascript), and was one of the first languages 
-to be embedded directly  into [HTML](../on/html), allowing websites to be built 
-dynamically on a server.
+It predates [JavaScript](/notes/on/javascript), and was one of the first 
+languages to be embedded directly  into [HTML](/notes/on/html), allowing websites 
+to be built dynamically on a server.
 
 ## More External Links
 - [Official Docs](https://www.php.net/)

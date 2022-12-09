@@ -16,8 +16,8 @@ title: Sass
 }
 ```
 **Sass** is actually 2  compiled stylesheet languages that extend regular old
-[CSS (Cascading StyleSheets)](../on/css). "Sass" refers to the compiler, `sass` 
-that converts either a `.sass` or `.scss` file into a regular old `.css` 
+[CSS (Cascading StyleSheets)](/notes/on/css). "Sass" refers to the compiler, 
+`sass` that converts either a `.sass` or `.scss` file into a regular old `.css` 
 CSS file.
 
 ### .sass 

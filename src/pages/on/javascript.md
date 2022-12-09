@@ -24,8 +24,8 @@ the only language (other than [WebAssembly](https://webassembly.org/)) that is
 run natively in web browsers (like Mozilla FireFox or Google Chrome).
 
 JavaScript works in conjunction with HTML and CSS to provide complete websites.
-- [see HTML](../on/html)
-- [see CSS](../on/css)
+- [see HTML](/notes/on/html)
+- [see CSS](/notes/on/css)
 
 ## Atwood's Law
 > "Any application that *can* be written in JavaScript, *will* eventually be 

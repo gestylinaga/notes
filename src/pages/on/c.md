@@ -16,7 +16,7 @@ int main(void)
 be the mother of all programming languages. Its use can be seen in:
   - The Windows, Linux, **and** Mac operating system kernels
   - Databases (like MySQL)
-  - Interpreters for other languages (like [Python](../on/python))
+  - Interpreters for other languages (like [Python](/notes/on/python))
   - Developer tools (like Vim and Git)
 
 The language was created in 1972 and used to develop the 
@@ -28,8 +28,8 @@ that came after like:
 - C#
 - Java
 - Perl
-- JavaScript
-- PHP
+- [JavaScript](/notes/on/javascript)
+- [PHP](/notes/on/php)
 
 It is a *compiled* language, as opposed to an *interpreted* language.
 - Compiles directly into machine code 

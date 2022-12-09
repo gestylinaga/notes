@@ -16,7 +16,7 @@ function helloWorld() {
 helloWorld()
 ```
 **TypeScript** is a *strongly typed* programming language that builds 
-on [JavaScript](../on/javascript). It is a strict superset of JavaScript, 
+on [JavaScript](/notes/on/javascript). It is a strict superset of JavaScript, 
 meaning that you can write plain JavaScript in a `.ts` file, and the extra 
 features of TypeScript are completely optional. This is because TypeScript acts 
 like a compiled language, that eventually compiles into regular old JavaScript.
