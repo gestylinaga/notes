@@ -91,3 +91,10 @@ pre {
 	border-radius: 0.3em;
 	white-space: pre-wrap;
 }
+
+@media (max-width: 960px) {
+	body {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}

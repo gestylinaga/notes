@@ -41,6 +41,14 @@ import MainLayout from '../layouts/MainLayout.astro';
 .flexBox {
 	display: flex;
 	justify-content: center;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	gap: 5rem;
+}
+
+@media (max-width: 720px) {
+	.flexBox {
+		flex-direction: column;
+	}
 }
 </style>
