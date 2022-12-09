@@ -36,6 +36,10 @@ import MainLayout from '../layouts/MainLayout.astro';
 			<dd><a href="./on/test">Test</a></dd>
 		</dl>
 	</div>
+	<footer>
+		<a href="https://gesty.dev">By: gesty</a>
+		<a href="/about">About this Site</a>
+	</footer>
 </MainLayout>
 <style>
 .flexBox {
@@ -46,9 +50,23 @@ import MainLayout from '../layouts/MainLayout.astro';
 	gap: 5rem;
 }
 
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5rem;
+	gap: 1rem;
+}
+
 @media (max-width: 720px) {
 	.flexBox {
 		flex-direction: column;
+	}
+
+	footer {
+		padding-bottom: 5rem;
 	}
 }
 </style>

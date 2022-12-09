@@ -1,0 +1,36 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout title="About - Notes on ...">
+  <h2>About this Site</h2>
+  <p>I made this site to host / display my notes on the internet.</p>
+  <p>It's basically a blog, but with notes instead of blog posts.</p>
+  <p>All <em>"notes"</em> are written in the <a href="/on/markdown">Markdown</a>
+    language,
+  </p>
+  <p>using <a href="/on/astro">Astro</a> as a static site generator.</p>
+  <p>Made by: <a href="https://gesty.dev">Gesty Linaga</a></p>
+  <p>(Also notice the URL is <code>notes.gesty.dev</code> ? Instead of 
+    <code>gesty.dev/notes</code> ? 😄 🤙)
+  </p>
+  <a href="/">Back to Home Page / Note List</a>
+</MainLayout>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  p {
+    text-align: center;
+  }
+  @media (max-width: 720px) {
+    body {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+</style>
