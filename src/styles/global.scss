@@ -25,14 +25,20 @@ $comments: #565f89;
 body {
   background: $bg;
   color: $white;
+	font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3 {
+  font-family: 'Gochi Hand', cursive;
+}
 h1 {
   color: $stringGreen;
   padding: 1rem;
+  font-size: 4rem;
 }
 h2 {
- color: $orange;
+  color: $orange;
+  font-size: 2rem;
 }
 
 a {
@@ -50,9 +56,10 @@ dl {
 	padding-bottom: 1rem;
 }
 dt {
+  font-family: 'Gochi Hand', cursive;
 	font-size: 1.5rem;
 }
 dd {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding-left: 1.5rem;
 }

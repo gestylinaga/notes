@@ -4,18 +4,27 @@ body {
   margin: auto;
   background: #24283b;
   color: #c0caf5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1, h2, h3 {
+  font-family: "Gochi Hand", cursive;
 }
 
 h1 {
   color: #bb9af7;
+  font-size: 3rem;
 }
 
 h2 {
   color: #9ece6a;
+  font-size: 2rem;
 }
 
 h3 {
   color: #ff9e64;
+  font-size: 1.5rem;
 }
 
 a {
