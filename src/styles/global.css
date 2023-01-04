@@ -9,6 +9,16 @@ body {
   color: #c0caf5;
   font-family: "Open Sans", sans-serif;
 }
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: #24283b;
+}
+body::-webkit-scrollbar-thumb {
+  background: #414868;
+  border-radius: 0.5rem;
+}
 
 h1, h2, h3 {
   font-family: "Gochi Hand", cursive;

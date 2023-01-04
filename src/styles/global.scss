@@ -26,6 +26,17 @@ body {
   background: $bg;
   color: $white;
 	font-family: 'Open Sans', sans-serif;
+  // Chrome Scrollbar
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: $bg;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $black;
+    border-radius: 0.5rem;
+  }
 }
 
 h1, h2, h3 {
