@@ -32,6 +32,6 @@ languages to be embedded directly  into [HTML](/on/html), allowing websites
 to be built dynamically on a server.
 
 ## More External Links
-- [Official Docs](https://www.php.net/)
+- [Official Site](https://www.php.net/)
 - [Official Docs](https://www.php.net/docs.php)
 - [Wikipedia Page](https://en.wikipedia.org/wiki/PHP)
