@@ -4,9 +4,9 @@ title: Jest
 ---
 
 # Jest
-**Jest** is a JavaScript Testing Framework, made by Facebook,  with a focus on 
-simplicity. It aims to work out of the box, config free, on most JavaScript 
-projects.
+**Jest** is a [JavaScript](/on/javascript) Testing Framework, made by Facebook,
+with a focus on simplicity. It aims to work out of the box, config free, on most 
+JavaScript projects.
 
 **Jest** has support / docs for projects using:
   - [TypeScript](/on/typescript)
