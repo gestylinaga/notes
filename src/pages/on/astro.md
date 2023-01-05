@@ -45,3 +45,4 @@ const info2 = "TypeScript / JavaScript goes here";
 ## More External Links
 - [Official Site](https://astro.build/)
 - [Official Docs](https://docs.astro.build/en/getting-started/)
+- [GitHub Repo](https://github.com/withastro/astro)

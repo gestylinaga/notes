@@ -46,3 +46,4 @@ or installation from a CDN:
 - [Official Site](https://getbootstrap.com/)
 - [Official Docs 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 - [Bootstrap Icons Page](https://icons.getbootstrap.com/)
+- [Github Repo](https://github.com/twbs/bootstrap)
