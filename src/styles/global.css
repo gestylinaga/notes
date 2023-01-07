@@ -40,6 +40,16 @@ a {
   text-decoration: none;
 }
 
+code {
+  font-family: "Source Code Pro", monospace;
+  color: #bb9af7;
+  font-size: 14px;
+  background: #414868;
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  white-space: pre-wrap;
+}
+
 dl {
   display: flex;
   flex-direction: column;

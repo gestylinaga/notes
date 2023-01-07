@@ -57,6 +57,16 @@ a {
   text-decoration: none;
 }
 
+code {
+  font-family: 'Source Code Pro', monospace;
+  color: $magenta;
+  font-size: 14px;
+  background: $black;
+  padding: 0.1em 0.3em;
+  border-radius: 0.3em;
+  white-space: pre-wrap;
+}
+
 // Detailed List
 dl {
 	display: flex;
