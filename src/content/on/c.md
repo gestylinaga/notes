@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: C
+category: Programming Language
 ---
 
 # C

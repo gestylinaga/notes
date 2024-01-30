@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: CSS
+category: Style Sheet Language
 ---
 
 # CSS

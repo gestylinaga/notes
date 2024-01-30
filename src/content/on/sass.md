@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Sass
+category: Style Sheet Language
 ---
 
 # Sass

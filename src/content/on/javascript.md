@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: JavaScript
+category: Scripting Language
 ---
 
 # JavaScript

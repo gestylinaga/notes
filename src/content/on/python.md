@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Python
+category: Scripting Language
 ---
 
 # Python

@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Ruby
+category: Scripting Language
 ---
 
 # Ruby

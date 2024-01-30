@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Jest
+category: Testing Framework
 ---
 
 # Jest

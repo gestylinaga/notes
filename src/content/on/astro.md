@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Astro
+category: Web Framework
 ---
 
 # Astro

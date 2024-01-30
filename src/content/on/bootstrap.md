@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Bootstrap
+category: Web Framework
 ---
 
 # Bootstrap

@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Lua
+category: Scripting Language
 ---
 # Lua
 ```lua 

@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Test Page
+category: other
 ---
 
 # Test Markdown Page

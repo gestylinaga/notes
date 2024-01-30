@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: PHP
+category: Scripting Language
 ---
 
 # PHP 

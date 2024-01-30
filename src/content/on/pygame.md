@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Pygame
+category: Python Framework
 ---
 
 # Pygame

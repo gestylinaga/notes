@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: TypeScript
+category: Scripting Language
 ---
 
 # TypeScript

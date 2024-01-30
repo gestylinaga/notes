@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Rust
+category: Programming Language
 ---
 
 # Rust 

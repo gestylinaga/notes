@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Go
+category: Programming Language
 ---
 
 # Go

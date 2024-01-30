@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: Bash
+category: Scripting Language
 ---
 
 # Bash

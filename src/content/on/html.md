@@ -1,6 +1,6 @@
 ---
-layout: ../../layouts/MarkdownLayout.astro
 title: HTML
+category: Markup Language
 ---
 
 # HTML
