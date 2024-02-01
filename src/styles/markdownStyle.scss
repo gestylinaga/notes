@@ -1,25 +1,24 @@
-// Notes - Markdown Style
-$bg:  #24283b;
-$white: #c0caf5;
-$black: #414868;
-$red: #f7768e;
-$yellow: #e0af68;
-$green: #73daca;
-$blue: #7aa2f7;
-$magenta: #bb9af7;
-// other 
-$orange: #ff9e64;
-$stringGreen: #9ece6a;
-$elementBlue: #2ac3de;
-$text: #9aa5ce;
-$comments: #565f89;
+// 🗒️ Notes - Markdown Style
+
+// Color scheme: rose pine
+:root {
+  --bg: #191724;
+  --black: #21202e;
+  --text: #e0def4;
+  --love: #eb6f92;
+  --gold: #f6c177;
+  --rose: #ebbcba;
+  --pine: #31748f;
+  --foam: #9ccfd8;
+  --iris: #c4a7e7;
+}
 
 /* Main */
 body {
 	max-width: 900px;
 	margin: auto;
-  background: $bg;
-  color: $white;
+  background: var(--bg);
+  color: var(--text);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 1.2rem;
   // Chrome Scrollbar
@@ -27,10 +26,10 @@ body {
     width: 0.5rem;
   }
   &::-webkit-scrollbar-track {
-    background: $bg;
+    background: var(--bg);
   }
   &::-webkit-scrollbar-thumb {
-    background: $black;
+    background: var(--text);
     border-radius: 0.5rem;
   }
 }
@@ -40,35 +39,35 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: $magenta;
+  color: var(--gold);
 	font-size: 3rem;
 }
 h2 {
-  color: $stringGreen;
+  color: var(--pine);
 	font-size: 2rem;
 }
 h3 {
-  color: $orange;
+  color: var(--pine);
 	font-size: 1.5rem;
 }
 a {
-  color: $blue;
+  color: var(--foam);
   text-decoration: none;
 }
 
 blockquote {
-	background: $black;
-	color: $white;
-	border: 1px solid $comments;
+	background: var(--black);
+	color: var(--text);
+	border: 1px solid var(--rose);
 	border-radius: 0.3em;
-	padding: 1px 1px;
+	padding: .5rem .5rem;
 	margin: 1px 1px;
 }
 
 /* Inline code */
 pre,
 code {
-	color: $magenta;
+	color: var(--iris);
 	font-size: 14px;
 	font-family: 'Source Code Pro', monospace;
 	line-height: 1.5;
@@ -89,7 +88,7 @@ code {
 pre::selection,
 code::selection {
 	text-shadow: none;
-	background: $bg;
+	background: var(--bg);
 }
 @media print {
 	pre,
@@ -101,13 +100,13 @@ pre {
 	margin: 0.5rem 0 16px;
 	padding: 0.8rem 1rem 0.9rem;
 	overflow: auto;
-	background: $black;
+	background: var(--black);
 	border-radius: 4px;
 }
 :not(pre) > code {
 	padding: 0.1em 0.3em;
-	color: $magenta;
-	background: $black;
+	color: var(--iris);
+	background: var(--black);
 	border-radius: 0.3em;
 	white-space: pre-wrap;
 }
