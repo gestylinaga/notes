@@ -1,5 +1,36 @@
 ---
-import MainLayout from '../layouts/MainLayout.astro';
+import { getCollection } from "astro:content";
+import MainLayout from "../layouts/MainLayout.astro";
+
+// Languages by category
+const programmingLangs = await getCollection("on", ({ data }) => {
+	return data.category === "Programming Language";
+});
+const scriptingLangs = await getCollection("on", ({ data }) => {
+	return data.category === "Scripting Language";
+});
+const markupLangs = await getCollection("on", ({ data }) => {
+	return data.category === "Markup Language";
+});
+const styleSheetLangs = await getCollection("on", ({ data }) => {
+	return data.category === "Style Sheet Language";
+});
+
+// Frameworks by category
+const webFrameworks = await getCollection("on", ({ data }) => {
+	return data.category === "Web Framework";
+});
+const testingFrameworks = await getCollection("on", ({ data }) => {
+	return data.category === "Testing Framework";
+});
+const pythonFrameworks = await getCollection("on", ({ data }) => {
+	return data.category === "Python Framework";
+});
+
+// Other notes
+const otherNotes = await getCollection("on", ({ data }) => {
+	return data.category === "other";
+});
 ---
 
 <MainLayout title="Notes On ...">
@@ -7,38 +38,59 @@ import MainLayout from '../layouts/MainLayout.astro';
 		<dl>
 			<h2>Languages</h2>
 			<dt>General</dt>
-			<dd><a href="/on/c">C</a></dd>
-			<dd><a href="/on/rust">Rust</a></dd>
-			<dd><a href="/on/go">Go</a></dd>
+				{
+					programmingLangs.map((lang) => (
+						<dd><a href={`/on/${lang.slug}/`}>{lang.data.title}</a></dd>
+					))
+				}
 			<dt>Scripting</dt>
-			<dd><a href="/on/javascript">JavaScript</a></dd>
-			<dd><a href="/on/typescript">TypeScript</a></dd>
-			<dd><a href="/on/python">Python</a></dd>
-			<dd><a href="/on/lua">Lua</a></dd>
-			<dd><a href="/on/bash">Bash</a></dd>
-			<dd><a href="/on/php">PHP</a></dd>
-			<dd><a href="/on/ruby">Ruby</a></dd>
+				{
+					scriptingLangs.map((lang) => (
+						<dd><a href={`/on/${lang.slug}/`}>{lang.data.title}</a></dd>
+					))
+				}
 			<dt>Markup</dt>
-			<dd><a href="/on/html">HTML</a></dd>
-			<dd><a href="/on/markdown">Markdown</a></dd>
+				{
+					markupLangs.map((lang) => (
+						<dd><a href={`/on/${lang.slug}/`}>{lang.data.title}</a></dd>
+					))
+				}
 			<dt>Stylesheet</dt>
-			<dd><a href="/on/css">CSS</a></dd>
-			<dd><a href="/on/sass">Sass</a></dd>
+				{
+					styleSheetLangs.map((lang) => (
+						<dd><a href={`/on/${lang.slug}/`}>{lang.data.title}</a></dd>
+					))
+				}
 		</dl>
 		<dl>
 			<h2>Frameworks</h2>
 			<dt>Web</dt>
-			<dd><a href="/on/astro">Astro</a></dd>
-			<dd><a href="/on/bootstrap">Bootstrap</a></dd>
+				{
+					webFrameworks.map((framework) => (
+						<dd><a href={`/on/${framework.slug}/`}>{framework.data.title}</a></dd>
+					))
+				}
 			<dt>Testing</dt>
-			<dd><a href="/on/jest">Jest</a></dd>
+				{
+					testingFrameworks.map((framework) => (
+						<dd><a href={`/on/${framework.slug}/`}>{framework.data.title}</a></dd>
+					))
+				}
 			<dt>Python</dt>
-			<dd><a href="/on/pygame">Pygame</a></dd>
+				{
+					pythonFrameworks.map((framework) => (
+						<dd><a href={`/on/${framework.slug}/`}>{framework.data.title}</a></dd>
+					))
+				}
 		</dl>
 		<dl>
 			<h2>Other</h2>
 			<dt>Example</dt>
-			<dd><a href="/on/test">Markdown Test</a></dd>
+				{
+					otherNotes.map((note) => (
+						<dd><a href={`/on/${note.slug}/`}>{note.data.title}</a></dd>
+					))
+				}
 		</dl>
 	</div>
 	<footer>
@@ -62,6 +114,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	padding-top: 5rem;
+	padding-bottom: 3rem;
 	gap: 1rem;
 }
 
