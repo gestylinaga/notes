@@ -10,10 +10,15 @@ import MainLayout from '../layouts/MainLayout.astro';
     language,
   </p>
   <p>using <a href="/on/astro">Astro</a> as a static site generator.</p>
-  <p>Made by: <a href="https://gesty.dev">Gesty Linaga</a></p>
+  <ul>
+  <p>Link Emojis:</p>
+    <li>🗒️ link to notes on notes.gesty.dev</li>
+    <li>🌐 link to external websites</li>
+  </ul>
   <p>(Also notice the URL is <code>notes.gesty.dev</code> ? Instead of 
     <code>gesty.dev/notes</code> ? 😄 🤙)
   </p>
+  <p>Made by: <a href="https://gesty.dev">Gesty Linaga</a></p>
   <a href="/">Back to Home Page / Note List</a>
 </MainLayout>
 <style>
@@ -24,9 +29,15 @@ import MainLayout from '../layouts/MainLayout.astro';
     align-items: center;
     gap: 2rem;
   }
+
   p {
     text-align: center;
   }
+
+  ul {
+    text-align: center;
+  }
+
   @media (max-width: 720px) {
     body {
       padding-left: 2rem;

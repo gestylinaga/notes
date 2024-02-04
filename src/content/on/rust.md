@@ -17,7 +17,7 @@ where performance is **absolutely** critical like:
   - Operating Systems
 
 It was created in 2007, and named after the 
-["Rust Fungus"](https://en.wikipedia.org/wiki/Rust_(fungus)) plant disease.
+["Rust Fungus" 🌐](https://en.wikipedia.org/wiki/Rust_(fungus)) plant disease.
 
 Rust was then sponsored by Mozilla in 2009, and has been ranked the #1 
 most-loved programming language every year since 2016.
@@ -42,9 +42,9 @@ compile time, to ensure your code is safe.
 ## Cargo 
 Rust has its own package manager, called `cargo`, where each individual package 
 is called a `crate`
-  - see [The Rust Community's Crate Registry](https://crates.io/)
+  - see [The Rust Community's Crate Registry 🌐](https://crates.io/)
 
 ## More External Links
-- [Official Site](https://www.rust-lang.org/)
-- [Rust Official Docs](https://doc.rust-lang.org/book/)
-- [Rust Installation Page](https://doc.rust-lang.org/book/ch01-01-installation.html)
+- [Official Site 🌐](https://www.rust-lang.org/)
+- [Rust Official Docs 🌐](https://doc.rust-lang.org/book/)
+- [Rust Installation Page 🌐](https://doc.rust-lang.org/book/ch01-01-installation.html)

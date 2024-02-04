@@ -18,7 +18,7 @@ category: Scripting Language
 originally named, is a dynamic, interpreted, scripting language, made for 
 building interactive websites on the server.
 
-Even though it's old, and mostly pronounced '*dead*', it remains one of the 
+Even though it's old, and mostly pronounced *'dead'*, it remains one of the 
 most popular languages for backend web-development. (Also good to know because, 
 it used to be **so** popular, a lot of websites will have some PHP somewhere).
 
@@ -27,11 +27,11 @@ It is used in:
 - Websites like Wikipedia
 - others via frameworks like Laravel & Symfony
 
-It predates [JavaScript](/on/javascript), and was one of the first 
-languages to be embedded directly  into [HTML](/on/html), allowing websites 
+It predates [JavaScript 🗒️](/on/javascript), and was one of the first 
+languages to be embedded directly  into [HTML 🗒️](/on/html), allowing websites 
 to be built dynamically on a server.
 
 ## More External Links
-- [Official Site](https://www.php.net/)
-- [Official Docs](https://www.php.net/docs.php)
-- [Wikipedia Page](https://en.wikipedia.org/wiki/PHP)
+- [Official Site 🌐](https://www.php.net/)
+- [Official Docs 🌐](https://www.php.net/docs.php)
+- [Wikipedia Page 🌐](https://en.wikipedia.org/wiki/PHP)

@@ -16,9 +16,9 @@ helloWorld()
 It is widely considered the *fastest* interpreted/scripting language.
 
 Its "virtual machine" maps very closely to the 
-[C programming language](/on/c), and when combined with its Just-In-Time 
-compiler, **LuaJIT**, it's faster than [Python](/on/python) and 
-[JavaScript](/on/javascript).
+[C programming language 🗒️](/on/c), and when combined with its Just-In-Time 
+compiler, **LuaJIT**, it's faster than [Python 🗒️](/on/python) and 
+[JavaScript 🗒️](/on/javascript).
 
 In addition to speed, Lua's complete source code and documentation is only 
 1.3 MB in size, making it very portable/embeddable.
@@ -31,17 +31,17 @@ It has seen widespread use in video-game development:
   - Roblox
 
 ## C APIs
-[Overview of C API - Lua Official Docs](http://www.lua.org/pil/24.html)
+[Overview of C API - Lua Official Docs 🌐](http://www.lua.org/pil/24.html)
 
 Lua's extensive C API allows easy integration, letting you call lua code in a C 
 program, or vice-versa, call C code in a Lua program.
 
 ## LuaRocks
 Lua has its own package manager, called **LuaRocks**.
-  - [LuaRocks Official Site](https://luarocks.org/)
+  - [LuaRocks Official Site 🌐](https://luarocks.org/)
 
 ## More External Links
-- [Official Site](https://www.lua.org/)
-- [Official Docs](https://www.lua.org/docs.html)
-- [Official Reference Manual 5.1](https://www.lua.org/manual/5.1/)
-- [The LuaJIT Project](https://luajit.org/)
+- [Official Site 🌐](https://www.lua.org/)
+- [Official Docs 🌐](https://www.lua.org/docs.html)
+- [Official Reference Manual 5.1 🌐](https://www.lua.org/manual/5.1/)
+- [The LuaJIT Project 🌐](https://luajit.org/)

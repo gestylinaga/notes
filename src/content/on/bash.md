@@ -21,5 +21,5 @@ Improvements offered by Bash include:
 * integer arithmetic in any base from 2 to 60
 
 ## More External Links
-- [Official GNU Software Link](https://www.gnu.org/software/bash/)
-- [Official Docs](https://www.gnu.org/software/bash/manual/)
+- [Official GNU Software Link 🌐](https://www.gnu.org/software/bash/)
+- [Official Docs 🌐](https://www.gnu.org/software/bash/manual/)

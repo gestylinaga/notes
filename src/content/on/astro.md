@@ -11,8 +11,8 @@ as **partial** or **selective hydration**, which lets pages load *fast*.
 
 It has built-in support for:
 - Languages:
-  - [TypeScript](/on/typescript)
-  - [Markdown](/on/markdown)
+  - [TypeScript 🗒️](/on/typescript)
+  - [Markdown 🗒️](/on/markdown)
 - Frameworks:
   - React
   - Svelte
@@ -43,6 +43,6 @@ const info2 = "TypeScript / JavaScript goes here";
 ```
 
 ## More External Links
-- [Official Site](https://astro.build/)
-- [Official Docs](https://docs.astro.build/en/getting-started/)
-- [GitHub Repo](https://github.com/withastro/astro)
+- [Official Site 🌐](https://astro.build/)
+- [Official Docs 🌐](https://docs.astro.build/en/getting-started/)
+- [GitHub Repo 🌐](https://github.com/withastro/astro)

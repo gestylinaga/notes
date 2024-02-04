@@ -33,11 +33,11 @@ eventually
 ## Pip
 Python has its own package manager, called Pip, and its own repository of 
 software you can import from, called the 
-[Python Package Index (PyPI)](https://pypi.org/).
-- [Pip Official Project Site](https://pypi.org/project/pip/)
-- [Pip Official Docs](https://pip.pypa.io/en/stable/)
+[Python Package Index (PyPI) 🌐](https://pypi.org/).
+- [Pip Official Project Site 🌐](https://pypi.org/project/pip/)
+- [Pip Official Docs 🌐](https://pip.pypa.io/en/stable/)
 
 ## More External Links
-- [Official Site](https://www.python.org/)
-- [Official docs](https://docs.python.org/3/)
-- [Official Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Official Site 🌐](https://www.python.org/)
+- [Official docs 🌐](https://docs.python.org/3/)
+- [Official Tutorial 🌐](https://docs.python.org/3/tutorial/index.html)

@@ -5,8 +5,8 @@ category: Python Framework
 
 # Pygame
 **Pygame** is a set of modules designed for writing video games, or other 
-multimedia programs in the [Python](/on/python) programming language. It is 
-built on top of the [Simple DirectMedia Layer](https://www.libsdl.org/) library 
+multimedia programs in the [Python 🗒️](/on/python) programming language. It is 
+built on top of the [Simple DirectMedia Layer 🌐](https://www.libsdl.org/) library 
 (SDL), and is meant to abstract the most common functions to make development 
 faster / easier.
 
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 5. Create a "game loop" in a `main()` function
 
 ## More External Links
-- [Official Site](https://www.pygame.org)
-- [Official Docs](https://www.pygame.org/docs/)
-- [Official Wiki](https://www.pygame.org/wiki/)
-- [GitHub Repo](https://github.com/pygame/pygame)
+- [Official Site 🌐](https://www.pygame.org)
+- [Official Docs 🌐](https://www.pygame.org/docs/)
+- [Official Wiki 🌐](https://www.pygame.org/wiki/)
+- [GitHub Repo 🌐](https://github.com/pygame/pygame)

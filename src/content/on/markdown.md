@@ -26,7 +26,7 @@ viewing it in a web browser.
 
 
 - Very simple syntax, easy to learn
-    - "EZ mode HTML" -- [HTML](/on/html) is another example of a 'Markup' 
+    - "EZ mode HTML" -- [HTML 🗒️](/on/html) is another example of a 'Markup' 
     language
 
 - Easy conversion to pdf or html if needed
@@ -37,7 +37,7 @@ viewing it in a web browser.
 
 - Github.com uses its own variant of Markdown, called GFM
     + **GFM** -- Github Flavored Markdown
-    + [see Official GFM Page](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
+    + [see Official GFM Page 🌐](https://github.github.com/gfm/#what-is-github-flavored-markdown-)
 
 > The overriding design goal for Markdown’s formatting syntax is to make it as 
 readable 
@@ -46,7 +46,7 @@ publishable as-is,
 > as plain text, without looking like it’s been marked up with tags or 
 formatting instructions.
 >
-> - [John Gruber](https://daringfireball.net/projects/markdown/)
+> - [John Gruber 🌐](https://daringfireball.net/projects/markdown/)
 
 ## More External Links
-[Official Syntax Description Page](https://daringfireball.net/projects/markdown/syntax)
+[Official Syntax Description Page 🌐](https://daringfireball.net/projects/markdown/syntax)

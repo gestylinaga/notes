@@ -27,8 +27,8 @@ on a single element, and the order/heirarchy of CSS rules apply in order. This
 also means that elements can "inherit" rules from their parent element.
 
 CSS works in conjunction with HTML and JavaScript to provide complete websites.
-- [see HTML](/on/html)
-- [see JavaScript](/on/javascript)
+- [see HTML 🗒️](/on/html)
+- [see JavaScript 🗒️](/on/javascript)
 
 ## More External Links
-- [CSS - Mozilla Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [CSS - Mozilla Web Docs 🌐](https://developer.mozilla.org/en-US/docs/Web/CSS)

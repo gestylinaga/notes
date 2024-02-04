@@ -6,7 +6,7 @@ category: Web Framework
 # Bootstrap
 **Bootstrap** is a *batteries-included*, feature-packed frontend toolkit. It 
 provides prebuilt components to speed up web development. It is built with 
-[Sass](/on/sass), and therefore highly extensible / customizable.
+[Sass 🗒️](/on/sass), and therefore highly extensible / customizable.
 
 ## Install
 ```bash
@@ -43,7 +43,7 @@ or installation from a CDN:
 ```
 
 ## More External Links
-- [Official Site](https://getbootstrap.com/)
-- [Official Docs 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
-- [Bootstrap Icons Page](https://icons.getbootstrap.com/)
-- [Github Repo](https://github.com/twbs/bootstrap)
+- [Official Site 🌐](https://getbootstrap.com/)
+- [Official Docs 5.2 🌐](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- [Bootstrap Icons Page 🌐](https://icons.getbootstrap.com/)
+- [Github Repo 🌐](https://github.com/twbs/bootstrap)

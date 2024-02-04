@@ -4,12 +4,12 @@ category: Testing Framework
 ---
 
 # Jest
-**Jest** is a [JavaScript](/on/javascript) Testing Framework, made by Facebook,
+**Jest** is a [JavaScript 🗒️](/on/javascript) Testing Framework, made by Facebook,
 with a focus on simplicity. It aims to work out of the box, config free, on most 
 JavaScript projects.
 
 **Jest** has support / docs for projects using:
-  - [TypeScript](/on/typescript)
+  - [TypeScript 🗒️](/on/typescript)
   - Babel
   - Node
   - React
@@ -77,6 +77,6 @@ This command will ask some questions based on your project, and generate a basic
 configuration file with a short description for each option.
 
 ## More External Links
-- [Official Site](https://jestjs.io/)
-- [Official Docs](https://jestjs.io/docs/getting-started)
-- [GitHub Repo](https://github.com/facebook/jest)
+- [Official Site 🌐](https://jestjs.io/)
+- [Official Docs 🌐](https://jestjs.io/docs/getting-started)
+- [GitHub Repo 🌐](https://github.com/facebook/jest)

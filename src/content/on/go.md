@@ -14,7 +14,7 @@ func main() {
 }
 ```
 **Go** (or **Golang**) is a statically typed, compiled language often described 
-as [C](/on/c) for the 21st century. It is a popular choice for high-performance 
+as [C 🗒️](/on/c) for the 21st century. It is a popular choice for high-performance 
 server-side applications. 
 
 It has built tools like:
@@ -44,9 +44,9 @@ threads on a CPU.
 Go has its own package / module system, making it easy to import or export code 
 between projects. Running `go mod init` in a terminal, creates a go module file
 (`go.mod`) that enables dependancy tracking (just like a `package.json` in 
-[JavaScript](/on/javascript)).
+[JavaScript 🗒️](/on/javascript)).
 
 ## More External Links
-- [Official Site](https://go.dev/)
-- [Official Docs](https://go.dev/doc/)
-- [Go page on Wikipedia](https://en.wikipedia.org/wiki/Go_(programming_language))
+- [Official Site 🌐](https://go.dev/)
+- [Official Docs 🌐](https://go.dev/doc/)
+- [Go page on Wikipedia 🌐](https://en.wikipedia.org/wiki/Go_(programming_language))
