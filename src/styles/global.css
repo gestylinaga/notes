@@ -65,6 +65,9 @@ a {
   color: var(--foam);
   text-decoration: none;
 }
+a:hover {
+  color: var(--pine);
+}
 
 code {
   font-family: "Source Code Pro", monospace;

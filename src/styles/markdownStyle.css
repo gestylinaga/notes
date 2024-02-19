@@ -67,6 +67,9 @@ a {
   color: var(--foam);
   text-decoration: none;
 }
+a:hover {
+  color: var(--pine);
+}
 
 blockquote {
   background: var(--black);

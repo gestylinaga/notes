@@ -68,6 +68,10 @@ h2 {
 a {
   color: var(--foam);
   text-decoration: none;
+
+  &:hover {
+    color: var(--pine);
+  }
 }
 
 code {
