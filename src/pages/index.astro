@@ -26,6 +26,9 @@ const testingFrameworks = await getCollection("on", ({ data }) => {
 const pythonFrameworks = await getCollection("on", ({ data }) => {
 	return data.category === "Python Framework";
 });
+const jsFrameworks = await getCollection("on", ({ data }) => {
+	return data.category === "JavaScript Framework"
+})
 
 // Other notes
 const otherNotes = await getCollection("on", ({ data }) => {
@@ -80,6 +83,12 @@ const otherNotes = await getCollection("on", ({ data }) => {
 				{
 					pythonFrameworks.map((framework) => (
 						<dd><a href={`/on/${framework.slug}/`}>{framework.data.title}</a></dd>
+					))
+				}
+			<dt>JavaScript</dt>
+			  {
+					jsFrameworks.map((framework) => (
+					  <dd><a href={`/on/${framework.slug}/`}>{framework.data.title}</a></dd>
 					))
 				}
 		</dl>
