@@ -31,6 +31,9 @@ const jsFrameworks = await getCollection("on", ({ data }) => {
 })
 
 // Other notes
+const dataFormats = await getCollection("on", ({ data }) => {
+	return data.category === "Data Interchange Format";
+});
 const otherNotes = await getCollection("on", ({ data }) => {
 	return data.category === "other";
 });
@@ -94,6 +97,12 @@ const otherNotes = await getCollection("on", ({ data }) => {
 		</dl>
 		<dl>
 			<h2>Other</h2>
+			<dt>Data Formats</dt>
+			  {
+					dataFormats.map((note) => (
+					  <dd><a href={`/on/${note.slug}/`}>{note.data.title}</a></dd>
+					))
+				}
 			<dt>Example</dt>
 				{
 					otherNotes.map((note) => (
