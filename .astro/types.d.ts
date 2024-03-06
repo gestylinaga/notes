@@ -180,147 +180,154 @@ declare module 'astro:content' {
   slug: "astro";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "bash.md": {
 	id: "bash.md";
   slug: "bash";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "bootstrap.md": {
 	id: "bootstrap.md";
   slug: "bootstrap";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "c.md": {
 	id: "c.md";
   slug: "c";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "css.md": {
 	id: "css.md";
   slug: "css";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "electron.md": {
 	id: "electron.md";
   slug: "electron";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "go.md": {
 	id: "go.md";
   slug: "go";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "html.md": {
 	id: "html.md";
   slug: "html";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "javascript.md": {
 	id: "javascript.md";
   slug: "javascript";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "jest.md": {
 	id: "jest.md";
   slug: "jest";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "json.md": {
 	id: "json.md";
   slug: "json";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "lua.md": {
 	id: "lua.md";
   slug: "lua";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "markdown.md": {
 	id: "markdown.md";
   slug: "markdown";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "php.md": {
 	id: "php.md";
   slug: "php";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "pygame.md": {
 	id: "pygame.md";
   slug: "pygame";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "python.md": {
 	id: "python.md";
   slug: "python";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "ruby.md": {
 	id: "ruby.md";
   slug: "ruby";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "rust.md": {
 	id: "rust.md";
   slug: "rust";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "sass.md": {
 	id: "sass.md";
   slug: "sass";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "test.md": {
 	id: "test.md";
   slug: "test";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 "typescript.md": {
 	id: "typescript.md";
   slug: "typescript";
   body: string;
   collection: "on";
-  data: any
+  data: InferEntrySchema<"on">
+} & { render(): Render[".md"] };
+"yaml.md": {
+	id: "yaml.md";
+  slug: "yaml";
+  body: string;
+  collection: "on";
+  data: InferEntrySchema<"on">
 } & { render(): Render[".md"] };
 };
 
@@ -332,5 +339,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = never;
+	type ContentConfig = typeof import("../src/content/config.js");
 }
